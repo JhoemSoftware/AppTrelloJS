@@ -3,7 +3,7 @@
       {
           "id": 1,
           "title": "Tarea Uno",
-          "person": "Nelo",
+          "person": "Janis Joplin",
           "state": "to-do",
           "details": "Este es el comentario de la tarea uno",
           "deadline": 1664614644,
@@ -12,7 +12,7 @@
       {
           "id": 2,
           "title": "Tarea Dos",
-          "person": "Laura",
+          "person": "Jim Morrison",
           "state": "to-do",
           "details": "Este es el comentario de la tarea dos",
           "deadline": 1664614644,

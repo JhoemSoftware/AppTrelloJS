@@ -1,5 +1,4 @@
-API_URL =
-  'https://my-json-server.typicode.com/JhoemSoftware/AppTrelloJS';
+API_URL = 'https://my-json-server.typicode.com/JhoemSoftware/AppTrelloJS';
 
 const ApiClient = axios.create({
   baseURL: API_URL
@@ -9,10 +8,7 @@ ApiClient.get(`${API_URL}/tasks`)
   .then((res) => showAllTasks(res.data))
   .catch((err) => console.error(err));
 
-const showAllTasks = (data) => {
-  data.map((task) => createTask(task));
-  console.log(data)
-};
+const showAllTasks = (data) => data.map((task) => createTask(task));
 
 const createTask = (task) => {
   let newTask = document.createElement('article');
@@ -23,7 +19,7 @@ const createTask = (task) => {
   let taskInfo = document.createElement('p');
   taskInfo.innerHTML = `<b>Responsable:</b> ${task.person}<br>`;
   taskInfo.innerHTML += `<b>Detalles:</b> ${task.details}<br>`;
-  taskInfo.innerHTML += `<b>Fecha:</b> ${dateFormat(task.deadline)}<br>`;
+  taskInfo.innerHTML += `<b>Fecha:</b> ${dateFormat(task.deadline)}`;
 
   newTask.appendChild(taskTitle);
   newTask.appendChild(taskInfo);
@@ -32,13 +28,7 @@ const createTask = (task) => {
   let columnInProgress = document.querySelector('#progressTasks');
   let columnDone = document.querySelector('#doneTasks');
 
-  if (task.state === 'to-do') {
-    columnToDo.appendChild(newTask);
-  }
-  if (task.state === 'in-progress') {
-    columnInProgress.appendChild(newTask);
-  }
-  if (task.state === 'done') {
-    columnDone.appendChild(newTask);
-  }
+  if (task.state === 'to-do') columnToDo.appendChild(newTask);
+  if (task.state === 'in-progress') columnInProgress.appendChild(newTask);
+  if (task.state === 'done') columnDone.appendChild(newTask);
 };
