@@ -4,11 +4,12 @@ form.addEventListener('submit', (ev) => {
   ev.preventDefault();
   const formData = ev.target;
 
-  const days = formData.titleTask.value;
+  const days = formData.nombreTarea.value;
 
   const data = {
-    title: formData.titleTask.value,
-    person: formData.responsibleTask.value,
+    title: formData.nombreTarea.value,
+    person: formData.selectEncargadoTarea.value,
+    details: formData.descripcionTarea.value,
     deadline: Number(moment().add(7, 'days').format('X')),
     created: Number(moment().add(Number(days), 'days').format('X')),
     state: 'to-do'

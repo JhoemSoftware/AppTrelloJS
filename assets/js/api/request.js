@@ -20,15 +20,13 @@ const createTask = (task) => {
   let taskTitle = document.createElement('h3');
   taskTitle.innerText = task.title;
 
-  let taskResponsible = document.createElement('p');
-  taskResponsible.innerHTML = `<b>Responsable:</b> ${task.person}`;
-
-  let taskDate = document.createElement('p');
-  taskDate.innerHTML = `<b>Plazo:</b> ${dateFormat(task.deadline)}`;
+  let taskInfo = document.createElement('p');
+  taskInfo.innerHTML = `<b>Responsable:</b> ${task.person}<br>`;
+  taskInfo.innerHTML += `<b>Detalles:</b> ${task.details}<br>`;
+  taskInfo.innerHTML += `<b>Fecha:</b> ${dateFormat(task.deadline)}<br>`;
 
   newTask.appendChild(taskTitle);
-  newTask.appendChild(taskResponsible);
-  newTask.appendChild(taskDate);
+  newTask.appendChild(taskInfo);
 
   let columnToDo = document.querySelector('#todoTasks');
   let columnInProgress = document.querySelector('#progressTasks');
