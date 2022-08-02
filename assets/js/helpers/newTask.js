@@ -2,14 +2,14 @@ const form = document.querySelector('#formNewTask');
 
 form.addEventListener('submit', (ev) => {
   ev.preventDefault();
-  const formData = ev.target;
+  const formHTML = ev.target;
 
-  const days = formData.nombreTarea.value;
+  const days = formHTML.taskName.value;
 
   const data = {
-    title: formData.nombreTarea.value,
-    person: formData.selectEncargadoTarea.value,
-    details: formData.descripcionTarea.value,
+    title: formHTML.taskName.value,
+    person: formHTML.selectTaskManager.value,
+    details: formHTML.taskDescription.value,
     deadline: Number(moment().add(7, 'days').format('X')),
     created: Number(moment().add(Number(days), 'days').format('X')),
     state: 'to-do'
@@ -18,7 +18,7 @@ form.addEventListener('submit', (ev) => {
   ApiClient.post(`${API_URL}/tasks`, data)
     .then((resp) => {
       createTask(resp.data);
-      formData.reset();
+      formHTML.reset();
     })
     .catch((e) => console.error(e));
 });

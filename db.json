@@ -2,21 +2,73 @@
   "tasks": [
       {
           "id": 1,
-          "title": "Tarea Uno",
+          "title": "HTML Course",
+          "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
           "person": "Janis Joplin",
-          "state": "to-do",
-          "details": "Este es el comentario de la tarea uno",
-          "deadline": 1664614644,
+          "state": "done",
+          "details": "HTML Definitive Course",
+          "deadline": 1564728791,
           "created": 1664614644
       },
       {
           "id": 2,
-          "title": "Tarea Dos",
+          "title": "CSS",
+          "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
           "person": "Jim Morrison",
-          "state": "to-do",
-          "details": "Este es el comentario de la tarea dos",
-          "deadline": 1664614644,
+          "state": "done",
+          "details": "CSS Definitive Course",
+          "deadline": 1569999191,
           "created": 1664614644
-      }
+      },
+      {
+        "id": 2,
+        "title": "JS",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+        "person": "Jim Morrison",
+        "state": "done",
+        "details": "JavScript Definitive Course",
+        "deadline": 1569999191,
+        "created": 1664614644
+    },
+    {
+        "id": 2,
+        "title": "PHP",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+        "person": "Jim Morrison",
+        "state": "done",
+        "details": "PHP Definitive Course",
+        "deadline": 1569999191,
+        "created": 1664614644
+    },
+    {
+        "id": 2,
+        "title": "Java",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+        "person": "Jim Morrison",
+        "state": "in-progress",
+        "details": "Java Definitive Course",
+        "deadline": 1569999191,
+        "created": 1664614644
+    },
+    {
+        "id": 2,
+        "title": "Kotlin",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+        "person": "Jim Morrison",
+        "state": "to-do",
+        "details": "Kotlin Definitive Course",
+        "deadline": 1569999191,
+        "created": 1664614644
+    },
+    {
+        "id": 2,
+        "title": "Darth",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
+        "person": "Jim Morrison",
+        "state": "to-do",
+        "details": "Darth Definitive Course",
+        "deadline": 1569999191,
+        "created": 1664614644
+    }
   ]
 }

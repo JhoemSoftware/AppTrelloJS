@@ -37,14 +37,16 @@ span{ color: #FF2E2E; font-weight: 700; }
 h4{ text-shadow: 1px .5px #000; color:aliceblue }
 article{
     background-color: aliceblue;
-    padding: 2% 5% 2% 5%;
+    padding: 5% 3% 2% 5%;
     border-radius: 30px;
     color: #000;
     margin: 4% 1% 1% 1%;
     max-width: 240px;
 }
 article h3{ text-transform: uppercase; font-size: 20px; }
-article p {
-    font-size: 15px;
-    text-align: left;
+article p { font-size: 15px; text-align: left; }
+article img {
+    width: 70px;height: 70px;
+    margin-left: 30%;
+    margin-bottom: 20px;
 }

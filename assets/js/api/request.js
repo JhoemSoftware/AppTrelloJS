@@ -15,13 +15,15 @@ const createTask = (task) => {
 
   let taskTitle = document.createElement('h3');
   taskTitle.innerText = task.title;
-
+  
   let taskInfo = document.createElement('p');
-  taskInfo.innerHTML = `<b>Responsable:</b> ${task.person}<br>`;
+  taskInfo.innerHTML = `<img src="${task.img}"><br>`
+  taskInfo.innerHTML += `<b>Responsable:</b> ${task.person}<br>`;
   taskInfo.innerHTML += `<b>Detalles:</b> ${task.details}<br>`;
   taskInfo.innerHTML += `<b>Fecha:</b> ${dateFormat(task.deadline)}`;
 
   newTask.appendChild(taskTitle);
+  newTask.innerHTML += '<hr>';
   newTask.appendChild(taskInfo);
 
   let columnToDo = document.querySelector('#todoTasks');
@@ -31,4 +33,5 @@ const createTask = (task) => {
   if (task.state === 'to-do') columnToDo.appendChild(newTask);
   if (task.state === 'in-progress') columnInProgress.appendChild(newTask);
   if (task.state === 'done') columnDone.appendChild(newTask);
+  console.log(task)
 };
