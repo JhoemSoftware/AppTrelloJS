@@ -19,6 +19,7 @@ form.addEventListener('submit', (ev) => {
   ApiClient.post(`${API_URL}/tasks`, data)
     .then((resp) => {
       createTask(resp.data);
+      swal("Excelente!", "La tarea ha sido creada", "success");
       formHTML.reset();
     })
     .catch((e) => console.error(e));

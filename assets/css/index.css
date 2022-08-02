@@ -8,15 +8,8 @@ body{
 #LogoPage{ max-width: 150px; }
 #LogoCampus{ max-width: 150px; }
 span{ color: #FF2E2E; font-weight: 700; }
-.modal-content{
-    background: radial-gradient(#29b6f6,#0d47a1);
-    color: aliceblue;
-}
-.avatarSelect{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
+.modal-content{ background: radial-gradient(#29b6f6,#0d47a1); color: aliceblue; }
+h4{ text-shadow: 1px .5px #000; color:aliceblue }
 .btn-info{
     background-color: #00ff44;
     font-weight: 500;
@@ -35,25 +28,21 @@ span{ color: #FF2E2E; font-weight: 700; }
     padding: 2% 1% 2% 1%;
     margin: 2% 2% 2% 2%;
 }
-h4{ text-shadow: 1px .5px #000; color:aliceblue }
 article{
     background-color: aliceblue;
     padding: 5% 3% 2% 5%;
     border-radius: 30px;
     color: #000;
-    margin: 4% 1% 1% 1%;
+    margin: 4% 1% 7% 1%;
     max-width: 240px;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0);
 }
 article h3{ text-transform: uppercase; font-size: 20px; }
 article p { font-size: 15px; text-align: left; }
-article img {
-    width: 70px;height: 70px;
-    margin-left: 30%;
-    margin-bottom: 10px;
-}
+article img { width: 70px;height: 70px; margin-left: 30%; margin-bottom: 10px; }
 
 @media only screen and (max-width: 950px) {
     article {
-      margin-left: 4%;
+        margin-left: 4%;
     }
-  }
+}

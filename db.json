@@ -2,7 +2,7 @@
   "tasks": [
       {
           "id": 1,
-          "title": "HTML Course",
+          "title": "HTML",
           "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
           "person": "Alex Marín",
           "state": "done",
@@ -22,7 +22,7 @@
       },
       {
         "id": 3,
-        "title": "JS",
+        "title": "JavaScript",
         "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
         "person": "Jhoem Software",
         "state": "in-progress",
