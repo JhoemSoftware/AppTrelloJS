@@ -4,7 +4,7 @@
           "id": 1,
           "title": "HTML Course",
           "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
-          "person": "Janis Joplin",
+          "person": "Alex Marín",
           "state": "done",
           "details": "HTML Definitive Course",
           "deadline": 1564728791,
@@ -14,7 +14,7 @@
           "id": 2,
           "title": "CSS",
           "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
-          "person": "Jim Morrison",
+          "person": "Alex Marín",
           "state": "done",
           "details": "CSS Definitive Course",
           "deadline": 1569999191,
@@ -23,8 +23,8 @@
       {
         "id": 2,
         "title": "JS",
-        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
-        "person": "Jim Morrison",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+        "person": "Jhoem Software",
         "state": "done",
         "details": "JavScript Definitive Course",
         "deadline": 1569999191,
@@ -33,8 +33,8 @@
     {
         "id": 2,
         "title": "PHP",
-        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
-        "person": "Jim Morrison",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
+        "person": "Nelo Vargas",
         "state": "done",
         "details": "PHP Definitive Course",
         "deadline": 1569999191,
@@ -43,8 +43,8 @@
     {
         "id": 2,
         "title": "Java",
-        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
-        "person": "Jim Morrison",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
+        "person": "Laura Vargas",
         "state": "in-progress",
         "details": "Java Definitive Course",
         "deadline": 1569999191,
@@ -53,20 +53,10 @@
     {
         "id": 2,
         "title": "Kotlin",
-        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
-        "person": "Jim Morrison",
+        "img" : "https://cdn-icons-png.flaticon.com/512/5969/5969010.png",
+        "person": "Alex Marín",
         "state": "to-do",
         "details": "Kotlin Definitive Course",
-        "deadline": 1569999191,
-        "created": 1664614644
-    },
-    {
-        "id": 2,
-        "title": "Darth",
-        "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
-        "person": "Jim Morrison",
-        "state": "to-do",
-        "details": "Darth Definitive Course",
         "deadline": 1569999191,
         "created": 1664614644
     }
