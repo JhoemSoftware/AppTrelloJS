@@ -21,7 +21,7 @@
           "created": 1664614644
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "JS",
         "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
         "person": "Jhoem Software",
@@ -31,17 +31,17 @@
         "created": 1664614644
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "PHP",
         "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
         "person": "Nelo Vargas",
-        "state": "to-do",
+        "state": "in-progress",
         "details": "PHP Definitive Course",
         "deadline": 1569999191,
         "created": 1664614644
     },
     {
-        "id": 2,
+        "id": 5,
         "title": "Java",
         "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968282.png",
         "person": "Laura Vargas",
@@ -51,12 +51,23 @@
         "created": 1664614644
     },
     {
-        "id": 2,
+        "id": 6,
         "title": "Kotlin",
         "img" : "https://cdn-icons-png.flaticon.com/512/5969/5969010.png",
         "person": "Alex Marín",
         "state": "to-do",
         "details": "Kotlin Definitive Course",
+        "deadline": 1569999191,
+        "created": 1664614644
+    }
+    ,
+    {
+        "id": 7,
+        "title": "Git • Github",
+        "img" : "https://cdn-icons-png.flaticon.com/512/733/733553.png",
+        "person": "Laura Vargas",
+        "state": "done",
+        "details": "Git Definitive Course",
         "deadline": 1569999191,
         "created": 1664614644
     }

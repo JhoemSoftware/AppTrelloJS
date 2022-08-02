@@ -8,6 +8,7 @@ form.addEventListener('submit', (ev) => {
 
   const data = {
     title: formHTML.taskName.value,
+    img: formHTML.taskImg.value,
     person: formHTML.selectTaskManager.value,
     details: formHTML.taskDescription.value,
     deadline: Number(moment().add(7, 'days').format('X')),
