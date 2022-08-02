@@ -31,15 +31,15 @@
                     </div>
                 </div>
                 <!-- Contenedores Task -->
-                <div class="col-12 col-sm-4 col-md-3 col-lg-2 mt-3 mb-5 box" id="todoTasks">
+                <div class="col-12 col-lg-3 col-lg-2 mt-3 mb-5 box" id="todoTasks">
                     <h4>TO DO 📢</h4>
                     <hr>
                 </div>
-                <div class="col-12 col-sm-4 col-md-3 col-lg-2 mt-3 mb-5 box" id="progressTasks">
+                <div class="col-12 col-lg-3 col-lg-2 mt-3 mb-5 box" id="progressTasks">
                     <h4>IN PROGRESS ⚙</h4>
                     <hr>
                 </div>
-                <div class="col-12 col-sm-4 col-md-3 col-lg-2 mt-3 mb-5 box" id="doneTasks">
+                <div class="col-12 col-lg-3 col-lg-2 mt-3 mb-5 box" id="doneTasks">
                     <h4>DONE 🏆</h4>
                     <hr>
                 </div>
@@ -59,13 +59,17 @@
                           <label for="taskName" class="form-label">Nombre de Tarea <span>*</span></label>
                           <input type="text" class="form-control" id="taskName" required tabindex="1">
                         </div>
+                        <div class="mb-3 mt-3">
+                            <label for="taskName" class="form-label">URL Imagen<span>*</span></label>
+                            <input type="text" class="form-control" id="taskImg" required tabindex="2">
+                          </div>
                         <div class="mb-3">
                             <label for="taskDescription" class="form-label">Descripción de Tarea <span>*</span></label>
-                            <input type="text" class="form-control" id="taskDescription" required tabindex="2">
+                            <input type="text" class="form-control" id="taskDescription" required tabindex="3">
                         </div>
                         <div class="mb-5 col-12">
                             <label for="selectTaskManager" class="form-label">Encargado (a) de Tarea <span>*</span></label>
-                            <select class="form-select" id="selectTaskManager" tabindex="3"></select>
+                            <select class="form-select" id="selectTaskManager" tabindex="4"></select>
                         </div>
                         <div class="mb-3 col-12">
                             <input type="submit" class="btn btn-warning" tabindex="5" value="Registrar Tarea">

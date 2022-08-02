@@ -25,7 +25,7 @@
         "title": "JS",
         "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
         "person": "Jhoem Software",
-        "state": "done",
+        "state": "in-progress",
         "details": "JavScript Definitive Course",
         "deadline": 1569999191,
         "created": 1664614644
@@ -35,7 +35,7 @@
         "title": "PHP",
         "img" : "https://cdn-icons-png.flaticon.com/512/5968/5968332.png",
         "person": "Nelo Vargas",
-        "state": "done",
+        "state": "to-do",
         "details": "PHP Definitive Course",
         "deadline": 1569999191,
         "created": 1664614644

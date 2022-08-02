@@ -26,12 +26,12 @@ const createTask = (task) => {
   newTask.innerHTML += '<hr>';
   newTask.appendChild(taskInfo);
 
-  let columnToDo = document.querySelector('#todoTasks');
-  let columnInProgress = document.querySelector('#progressTasks');
-  let columnDone = document.querySelector('#doneTasks');
+  let divToDo = document.querySelector('#todoTasks');
+  let divProgress = document.querySelector('#progressTasks');
+  let divDone = document.querySelector('#doneTasks');
 
-  if (task.state === 'to-do') columnToDo.appendChild(newTask);
-  if (task.state === 'in-progress') columnInProgress.appendChild(newTask);
-  if (task.state === 'done') columnDone.appendChild(newTask);
+  if (task.state === 'to-do') divToDo.appendChild(newTask);
+  if (task.state === 'in-progress') divProgress.appendChild(newTask);
+  if (task.state === 'done') divDone.appendChild(newTask);
   console.log(task)
 };
